@@ -9,8 +9,8 @@ button {
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--slate, #434455);
-    background: var(--white, #FFF);
+    color:#434455;
+    background: #FFF;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -19,30 +19,29 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris, #4D5AE5);
+    color: #4D5AE5;
     
 }
 .black-text {
-    color: var(--navyblue, #2E2F42);
+    color:#2E2F42;
 }
 .white-text {
-    color: var(--cloud, #F4F4FD);
+    color: #F4F4FD;
 }
 .page-header {
-    background: var(--white, #FFF);
+    background: #FFF;
 }
 
 .section-title {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .title {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -50,12 +49,11 @@ body {
 }
 .text{
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .menu {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -63,36 +61,34 @@ body {
 }
 .menu:hover,
 .menu:focus {
-    color: var(--ocean, #404BBF);
+    color: #404BBF;
 }
 .address-list  {
     font-style: normal;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .address {
-    color: var(--slate, #434455);
+    color: #434455;
 }
 .address:hover,
 .address:focus {
-    color: var(--ocean, #404BBF);
+    color: #404BBF;
 }
 .hero-section {
-    background: var(--navyblue, #2E2F42);
+    background: #2E2F42;
 }
 .text-hero {
-    color: var(--white, #FFF);
+    color: #FFF;
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .order-button {
-    color: var(--white, #FFF);
-    background: var(--iris, #4D5AE5);
+    color: #FFF;
+    background: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -100,14 +96,14 @@ body {
 }
 .order-button:hover,
 .order-button:focus {
-    background: var(--ocean, #404BBF);
+    background: #404BBF;
 }
 .team-section {
-    background: var(--cloud, #F4F4FD);
+    background: #F4F4FD;
 }
 .card {
-    background-color: var(--cloud, #FFFFFF);
+    background-color: #FFFFFF;
 }
 .page-footer {
-    background: var(--navyblue, #2E2F42);
+    background: #2E2F42;
 }
