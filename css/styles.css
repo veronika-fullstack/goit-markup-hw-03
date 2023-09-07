@@ -55,10 +55,13 @@ img{
 
 .page-header-container{
     display: flex;
+    justify-content: space-between;
+
 }
 
 .page-nav{
     display: flex;
+    align-items: center;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -68,6 +71,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
     
 }
 .black-text {
@@ -78,6 +82,8 @@ img{
 }
 .page-header {
     background: #FFF;
+    padding-top: 24px;
+    padding-bottom: 120px;
 }
 
 .section-title {
@@ -102,6 +108,7 @@ img{
 }
 .menu{
     display: flex;
+    column-gap: 40px;
 }
 .menu-link {
     color: #2E2F42;
@@ -122,6 +129,7 @@ img{
 }
 .address {
     display: flex;
+    column-gap: 40px;
 }
 .address-link {
     color: #434455;
@@ -132,6 +140,8 @@ img{
 }
 .hero-section {
     background: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .text-hero {
     color: #FFF;
@@ -154,9 +164,31 @@ img{
 }
 .team-section {
     background: #F4F4FD;
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.benefits{
+    display: flex;
+}
+.team{
+    display: flex;
 }
 .card {
     background-color: #FFFFFF;
+}
+.portfolio{
+    display: flex;
 }
 .page-footer {
     background: #2E2F42;
