@@ -142,13 +142,14 @@ img{
     background: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+    text-align: center;
 }
 .text-hero {
     color: #FFF;
-    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
 }
 .order-button {
     color: #FFF;
@@ -162,11 +163,19 @@ img{
 .order-button:focus {
     background: #404BBF;
 }
-.team-section {
-    background: #F4F4FD;
 
+
+
+
+.benefits-section{
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
-.visually-hidden {
+.benefits {
+    display: flex;
+    column-gap: 24px;
+}
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -178,18 +187,34 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.benefits{
-    display: flex;
+.benefits-list-item{
+    width: 264px;
 }
+
+
+
+
 .team{
     display: flex;
+}
+.team-section {
+    background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .card {
     background-color: #FFFFFF;
 }
+
 .portfolio{
     display: flex;
 }
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
 .page-footer {
     background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
