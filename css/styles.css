@@ -109,7 +109,7 @@ img{
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-link {
