@@ -194,12 +194,12 @@ img{
 /* ========= B E N E F I T S   S E C T I O N =========*/
 
 .benefits-section{
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .benefits {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .visually-hidden{
     position: absolute;
@@ -224,10 +224,12 @@ img{
 
 /* ============= T E A M   S E C T I O N =============*/
 
+.team-title{
+    margin-bottom: 72px;
+}
 .team{
     display: flex;
-    margin-top: 72px;
-    column-gap: 24px;
+    gap: 24px;
 }
 .team-section {
     background: #F4F4FD;
@@ -237,7 +239,6 @@ img{
 .card {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px)/4);
-    padding-bottom: 32px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -245,8 +246,12 @@ img{
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.card-text-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
 .name{
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
