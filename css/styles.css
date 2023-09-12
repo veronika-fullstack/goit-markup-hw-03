@@ -258,33 +258,38 @@ img{
 
 /* ======== P O R T F O L I O   S E C T I O N ========*/
 
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-main-title{
+    margin-bottom: 72px;
+}
+
 .portfolio{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-top: 72px;
-}
-.portfolio-section{
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
-.portfolio-card{
-    padding-bottom: 32px;
-    border: 1px solid #E7E9FC;
-    flex-basis: calc((100% - 48px) / 3);
-}
-.portfolio-title{
-    margin-top: 32px;
-    margin-bottom: 8px;
-    margin-left: 16px;
-    margin-right: 16px;
-}
-.portfolio-text{
-    margin-left: 16px;
-    margin-right: 16px;
+
 }
 
+.portfolio-card{
+    padding-bottom: 32px;
+
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-text-container{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.portfolio-title{
+    margin-bottom: 8px;
+}
 
 /* =================== F O O T E R ===================*/
 
