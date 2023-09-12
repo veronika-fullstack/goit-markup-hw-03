@@ -74,6 +74,14 @@ img{
 
 /* =================== H E A D E R ===================*/
 
+.page-header {
+    background: #FFF;
+    border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 94px;
+}
+
 .page-header-container{
     display: flex;
     justify-content: space-between;
@@ -99,14 +107,6 @@ img{
     color:#2E2F42;
 }
 
-.page-header {
-    background: #FFF;
-    border-bottom: 1px solid #E7E9FC;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-bottom: 94px;
-}
-
 .menu {
     display: flex;
     gap: 40px;
@@ -118,6 +118,8 @@ img{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -134,7 +136,7 @@ img{
 
 .address {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .address-link {
@@ -230,7 +232,7 @@ img{
 }
 .card {
     background-color: #FFFFFF;
-    flex-basis: calc(100% - 72px) / 4);
+    flex-basis: calc((100% - 72px)/4);
     padding-bottom: 32px;
     display: inline-flex;
     flex-direction: column;
@@ -261,7 +263,7 @@ img{
 .portfolio-card{
     padding-bottom: 32px;
     border: 1px solid #E7E9FC;
-    flex-basis: calc(100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-title{
     margin-top: 32px;
@@ -287,7 +289,11 @@ img{
     color: #F4F4FD;
 }
 
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-text{
-    margin-top: 17.5px;
-    width: 264px;
+    max-width: 264px;
 }
