@@ -79,7 +79,6 @@ img{
     border-bottom: 1px solid #E7E9FC;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-bottom: 94px;
 }
 
 .page-header-container{
@@ -239,7 +238,6 @@ img{
 .card {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px)/4);
-    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -276,8 +274,6 @@ img{
 }
 
 .portfolio-card{
-    padding-bottom: 32px;
-
     width: calc((100% - 48px) / 3);
 }
 
